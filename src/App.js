@@ -17,6 +17,7 @@ export default function App() {
       <h1>{advice}</h1>
       <button onClick={getAdvice}>get Advice</button>
       <Message count={count} />
+      <p>Don't forget to smile 🙃</p>
     </div>
   );
 }
@@ -28,3 +29,4 @@ function Message(props) {
     </p>
   );
 }
+
